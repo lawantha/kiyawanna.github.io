@@ -1,0 +1,91 @@
+﻿@charset "utf-8";
+/* CSS Document */
+
+h1
+{
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	font-size: 36px;
+	color: aliceblue
+
+}
+div.one
+{
+	border: 1px solid black;
+	border-color: read;
+	background-color: #780727;
+	text-align: center;
+	//margin: 10px;
+
+
+}
+
+div.two
+{
+	//text-align: center;
+	height: 30px;
+	//border: 1px solid black;
+	border-color: read;
+	background-color: #94072f;
+	word-spacing:45px
+	
+}
+a
+{
+	color: white;
+	text-decoration: none;
+}
+div.column 
+{
+  float: left;
+  width: 18%;
+  padding: 3px;
+}
+div.pic
+{
+	margin: 25px;
+	width: auto;
+	height: auto;
+	float: left;
+	border-radius:0px;
+	box-shadow:0 0 16px;
+	position: relative;
+}
+
+div.descriiption
+{
+	text-align: center;
+	font-family: Constantia, "Lucida Bright", "DejaVu Serif", Georgia, "serif";
+	color: darkblue;
+}
+div.container {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+
+
+
+div.overlay
+{
+	position: absolute;
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	opacity: 0;
+	transition: .5s ease;
+	background-color: #fff;
+	border-radius:16px;
+}
+
+div.pic:hover .overlay {
+  opacity: 0.8;
+}
+
+#wholepage
+{
+	width:1250px;
+	margin-left:auto;
+	margin-right:auto;
+}
